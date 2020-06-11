@@ -3082,7 +3082,7 @@ static void stripes_frame(void *data, video_frame_info_t *video_info)
    if (stripes->mouse_show)
    {
       menu_input_pointer_t pointer;
-      bool cursor_visible   = video_fullscreen 
+      bool cursor_visible   = video_fullscreen
          && menu_mouse_enable;
 
       menu_input_get_pointer_state(&pointer);
@@ -4058,9 +4058,9 @@ static void stripes_list_cache(void *data, enum menu_list_type type, unsigned ac
 #ifdef HAVE_FFMPEG
             case STRIPES_SYSTEM_TAB_VIDEO:
                menu_stack->list[stack_size - 1].label =
-                  strdup(msg_hash_to_str(MENU_ENUM_LABEL_VIDEO_TAB));
+                  strdup(msg_hash_to_str(MENU_ENUM_LABEL_VIDEOS_TAB));
                menu_stack->list[stack_size - 1].type =
-                  MENU_VIDEO_TAB;
+                  MENU_VIDEOS_TAB;
                break;
 #endif
             case STRIPES_SYSTEM_TAB_HISTORY:

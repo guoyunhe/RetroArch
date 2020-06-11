@@ -33,7 +33,7 @@ MSG_HASH(
    "موسيقى"
    )
 MSG_HASH(
-   MENU_ENUM_LABEL_VALUE_VIDEO_TAB,
+   MENU_ENUM_LABEL_VALUE_VIDEOS_TAB,
    "الفيديو"
    )
 MSG_HASH(

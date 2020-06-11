@@ -3083,7 +3083,7 @@ MSG_HASH(
    "video_swap_interval"
    )
 MSG_HASH(
-   MENU_ENUM_LABEL_VIDEO_TAB,
+   MENU_ENUM_LABEL_VIDEOS_TAB,
    "video_tab"
    )
 MSG_HASH(

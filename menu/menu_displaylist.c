@@ -3596,7 +3596,7 @@ static bool menu_displaylist_push_internal(
       menu_displaylist_ctl(DISPLAYLIST_MUSIC_HISTORY, info);
       return true;
    }
-   else if (string_is_equal(label, msg_hash_to_str(MENU_ENUM_LABEL_VIDEO_TAB)))
+   else if (string_is_equal(label, msg_hash_to_str(MENU_ENUM_LABEL_VIDEOS_TAB)))
    {
       filebrowser_clear_type();
       info->type = 42;
@@ -9361,7 +9361,7 @@ bool menu_displaylist_ctl(enum menu_displaylist_ctl_state type,
             if (cores_names_size != 0)
             {
                unsigned                      j = 0;
-               struct menu_displaylist_state 
+               struct menu_displaylist_state
                   *p_displist                  = &menu_displist_st;
                struct string_list *cores_paths =
                   string_list_new_special(STRING_LIST_SUPPORTED_CORES_PATHS,
@@ -9384,7 +9384,7 @@ bool menu_displaylist_ctl(enum menu_displaylist_ctl_state type,
                            core_name);
                      strlcpy(p_displist->new_lbl_entry,
                            core_path, sizeof(p_displist->new_lbl_entry));
-                     p_displist->new_type = 
+                     p_displist->new_type =
                         MENU_ENUM_LABEL_DETECT_CORE_LIST_OK_CURRENT_CORE;
                   }
                   else if (core_path)
@@ -9461,7 +9461,7 @@ bool menu_displaylist_ctl(enum menu_displaylist_ctl_state type,
             if (cores_names_size != 0)
             {
                unsigned j = 0;
-               struct menu_displaylist_state 
+               struct menu_displaylist_state
                   *p_displist                  = &menu_displist_st;
                struct string_list *cores_paths =
                   string_list_new_special(STRING_LIST_SUPPORTED_CORES_PATHS,
@@ -9483,7 +9483,7 @@ bool menu_displaylist_ctl(enum menu_displaylist_ctl_state type,
                            msg_hash_to_str(MENU_ENUM_LABEL_VALUE_DETECT_CORE_LIST_OK_CURRENT_CORE),
                            core_name);
                      p_displist->new_lbl_entry[0] = '\0';
-                     p_displist->new_type         = 
+                     p_displist->new_type         =
                         MENU_ENUM_LABEL_FILE_BROWSER_CORE_SELECT_FROM_COLLECTION_CURRENT_CORE;
                   }
                   else if (core_path)

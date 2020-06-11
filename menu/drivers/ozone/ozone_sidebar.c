@@ -38,7 +38,7 @@ enum msg_hash_enums ozone_system_tabs_value[OZONE_SYSTEM_TAB_LAST] = {
    MENU_ENUM_LABEL_VALUE_FAVORITES_TAB,
    MENU_ENUM_LABEL_VALUE_MUSIC_TAB,
 #if defined(HAVE_FFMPEG) || defined(HAVE_MPV)
-   MENU_ENUM_LABEL_VALUE_VIDEO_TAB,
+   MENU_ENUM_LABEL_VALUE_VIDEOS_TAB,
 #endif
 #ifdef HAVE_IMAGEVIEWER
    MENU_ENUM_LABEL_VALUE_IMAGES_TAB,
@@ -56,7 +56,7 @@ enum menu_settings_type ozone_system_tabs_type[OZONE_SYSTEM_TAB_LAST] = {
    MENU_FAVORITES_TAB,
    MENU_MUSIC_TAB,
 #if defined(HAVE_FFMPEG) || defined(HAVE_MPV)
-   MENU_VIDEO_TAB,
+   MENU_VIDEOS_TAB,
 #endif
 #ifdef HAVE_IMAGEVIEWER
    MENU_IMAGES_TAB,
@@ -74,7 +74,7 @@ enum msg_hash_enums ozone_system_tabs_idx[OZONE_SYSTEM_TAB_LAST] = {
    MENU_ENUM_LABEL_FAVORITES_TAB,
    MENU_ENUM_LABEL_MUSIC_TAB,
 #if defined(HAVE_FFMPEG) || defined(HAVE_MPV)
-   MENU_ENUM_LABEL_VIDEO_TAB,
+   MENU_ENUM_LABEL_VIDEOS_TAB,
 #endif
 #ifdef HAVE_IMAGEVIEWER
    MENU_ENUM_LABEL_IMAGES_TAB,
@@ -540,9 +540,9 @@ static float ozone_sidebar_get_scroll_y(
       ozone_handle_t *ozone, unsigned video_height)
 {
    float scroll_y                          = ozone->animations.scroll_y_sidebar;
-   float selected_position_y               = 
+   float selected_position_y               =
       ozone_get_selected_sidebar_y_position(ozone);
-   float current_selection_middle_onscreen = 
+   float current_selection_middle_onscreen =
       ozone->dimensions.header_height + ozone->dimensions.spacer_1px + ozone->animations.scroll_y_sidebar + selected_position_y + ozone->dimensions.sidebar_entry_height / 2.0f;
    float bottom_boundary                   = (float)video_height - (ozone->dimensions.header_height + ozone->dimensions.spacer_1px) - ozone->dimensions.footer_height;
    float entries_middle                    = (float)video_height / 2.0f;
