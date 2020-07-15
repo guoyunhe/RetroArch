@@ -105,7 +105,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_SHOW_WIMP,
-   "Mostrar menu de desktop"
+   "Mostrar menu do desktop"
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_SHOW_WIMP,
@@ -242,7 +242,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_GOTO_MUSIC,
-   "As músicas que foram tocadas anteriormente aparecerá aqui."
+   "As músicas que foram tocadas anteriormente aparecerão aqui."
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_GOTO_IMAGES,
@@ -490,7 +490,7 @@ MSG_HASH(
 
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_BUILD_DATE,
-   "Data da Compilação"
+   "Data da compilação"
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_GIT_VERSION,
@@ -1167,7 +1167,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_BLUETOOTH_DRIVER,
-   "O Driver Bluetooth que será utilizado."
+   "Driver Bluetooth a ser utilizado."
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_WIFI_DRIVER,
@@ -1568,7 +1568,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_VIDEO_ADAPTIVE_VSYNC,
-   "A sincronização vertical está habilitado até que o desempenho caia abaixo da taxa de atualização alvo. Pode minimizar travamentos quando o desempenho cai abaixo do tempo real e ser mais eficiente em termos de energia."
+   "A sincronização vertical está ativada até que o desempenho caia abaixo da taxa de atualização alvo. Pode minimizar travamentos quando o desempenho cai abaixo do tempo real e ser mais eficiente em termos de energia."
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_VIDEO_FRAME_DELAY,
@@ -3314,7 +3314,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_MENU_SHOW_LOAD_CONTENT_ANIMATION,
-   "Notificação ao iniciar o carregamento de conteúdo"
+   "Notificação de inicialização ao \"Carregar conteúdo\""
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_MENU_SHOW_LOAD_CONTENT_ANIMATION,
@@ -5684,7 +5684,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_CHEAT_START_OR_RESTART,
-   "Esquerda/Direita para alterar o tamanho do bit"
+   "Esquerda ou direita para alterar o tamanho do bit"
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_CHEAT_SEARCH_EXACT,
